@@ -1,0 +1,140 @@
+/* Start Contact */
+.iti__country-list {
+    left: 0;
+}
+
+.nice-select.open .list {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.login .pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.login .pic img {
+    width: 85%;
+}
+
+.login .pic-sign {
+    height: 100% !important;
+}
+
+@media (max-width: 992px) {
+    .login .pic {
+        display: none !important;
+    }
+}
+
+.login .sm-pic {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 70%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+.form-container span {
+    font-weight: 500;
+    font-size: 20px !important;
+}
+
+.contact-info form input:not(:last-child),
+.form-container form input:not(:last-child),
+.check,
+.form-container form select,
+.form-container form .btn {
+    height: 58px;
+    color: #000 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    outline: none !important;
+    font-size: 15px;
+    box-shadow: -1px 1px 2px 0px rgb(0 0 0 / 8%);
+    -webkit-box-shadow: -1px 1px 2px 0px rgb(0 0 0 / 8%);
+}
+
+.form-container .radio-ch {
+    height: 16px !important;
+}
+
+.form-container form textarea {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 15px;
+}
+
+.form-container form input:focus,
+.form-container form textarea:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: 0 1px 0 -1px var(--first-color);
+}
+
+.form-container .pic img {
+    height: 588px;
+    object-fit: cover;
+}
+
+.form-container #contactButton {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.form-container #contactButton:hover {
+    background-color: var(--second-color) !important;
+}
+
+@media (max-width: 992px) {
+    .form-container .pic img {
+        display: none;
+    }
+}
+
+.form-container .facebook:focus,
+.form-container .facebook:focus-visible,
+.form-container .facebook:active {
+    color: white;
+}
+
+.form-container .new {
+    text-decoration: none;
+}
+
+.form-container .new:hover {
+    text-decoration: underline;
+}
+
+.form-container .contact-info .more {
+    top: -10%;
+    left: 5%;
+    background-color: white;
+    font-size: 14px;
+}
+
+.form-container .contact-info i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+/* End Contact */

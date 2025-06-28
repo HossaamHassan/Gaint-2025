@@ -1,0 +1,46 @@
+.reels a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.reels a::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 6.69%,
+    rgba(0, 0, 0, 0.6) 49.62%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  bottom: 62px;
+  left: 0;
+  transition: 0.3s;
+}
+.reels a:hover::before {
+  height: 50%;
+}
+
+.reels a i {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.reels a:hover i {
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
+.reels a h2 {
+  position: relative;
+  margin-top: 1rem;
+}

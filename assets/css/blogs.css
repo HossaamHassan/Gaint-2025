@@ -1,0 +1,28 @@
+/* Start News */
+
+.news .box-news span,
+.news .box-news .sec-btn {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.contact h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.news .box-news span,
+.news .box-news .sec-btn {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.news .box-news h3 {
+  font-size: 17px;
+}
+
+.news .main-btn {
+  width: fit-content;
+}
+
+/* End News */

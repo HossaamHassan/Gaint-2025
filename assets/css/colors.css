@@ -1,0 +1,94 @@
+
+/* Colors */
+.colors-pallet-section
+ {
+  background-color: #fff;
+}
+.partner {
+  background-color: var(--main-bg-section);
+}
+.colors-pallet-section .color-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 320px;
+  display: block;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.colors-pallet-section .color-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.colors-pallet-section .color-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.9) 100%);
+  width: 100%;
+  height: 60%;
+  transition: .5s;
+  z-index: 2;
+}
+
+.colors-pallet-section .color-card:hover::before {
+  height: 80%;
+}
+
+.colors-pallet-section .color-gradient {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.colors-pallet-section .color-content-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px;
+  color: white;
+  z-index: 3;
+}
+
+.colors-pallet-section .color-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.colors-pallet-section .color-codes {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.colors-pallet-section .color-code {
+  background: rgba(255, 255, 255, 0.9);
+  color: #2c3e50;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin: 2px;
+  display: inline-block;
+}
+
+.color-desc {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+.color-gallery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,4 @@
+.projects-details img {
+  aspect-ratio: 1.57 / 1;
+  object-fit: cover;
+}

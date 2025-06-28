@@ -1,0 +1,47 @@
+/* Start Why Choose Us */
+
+.why-us .box {
+  overflow: hidden;
+  transition: 0.3s ease;
+  position: relative;
+  padding: 20px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  box-shadow: -20px 19px 66px -24px rgba(0, 0, 0, 0.2);
+}
+.why-us .box:hover {
+  transform: translateY(-10px);
+}
+.why-us .box::after {
+  content: "";
+  width: 0;
+  transition: 0.3s ease;
+}
+.why-us .box:hover:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 7px;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.why-us .box h6 {
+  font-weight: 500;
+  font-size: 17px;
+}
+.why-us svg {
+  width: 80px;
+  height: 80px;
+  fill: var(--primary-color);
+}
+/* End Why Choose Us */
+.why-us .main-head h2 {
+  max-width: 504px;
+}
